@@ -34,7 +34,7 @@ function getKOTA(){
 function grabTIKI($dari,$ke,$berat){
 	$ch = curl_init();
 	$url="http://www.tiki-online.com/?cat=KgfdshfF7788KHfskF";
-	$params = "&get_ori=".$dari."&get_des=".$ke."&get_wg=".$berat."&submit=Check";
+	$params = "&get_ori=".$dari."&get_des=".$ke."&get_wgdom=".$berat."&submit=Check";
 	curl_setopt( $ch, CURLOPT_SSL_VERIFYHOST, 0 );
 	curl_setopt( $ch, CURLOPT_SSL_VERIFYPEER, 0 );
 	curl_setopt( $ch, CURLOPT_FOLLOWLOCATION, 0 );
